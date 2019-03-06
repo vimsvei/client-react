@@ -1,0 +1,5 @@
+curl -X POST \
+    -H "Authorization: Basic aGVsbG8td29ybGQtYXV0aHotc2VydmljZTpwYXNzd29yZA==" \
+    -H "Content-Type: application/x-www-form-urlencoded" \
+    -d 'username=alexandr.zelentsov@gmail.com&password=o441yk190rus&grant_type=password' \
+    "http://192.168.99.100:32781/auth/realms/architect-archeology/protocol/openid-connect/token"
